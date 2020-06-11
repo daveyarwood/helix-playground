@@ -4,7 +4,7 @@
             [helix.dom   :as    d]
             ["react-dom" :as    rdom]))
 
-;; Following along with https://reactjs.org/tutorial/tutorial.html
+;; Ported from: https://reactjs.org/tutorial/tutorial.html
 
 (defn- current-player
   [step]
